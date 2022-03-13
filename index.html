@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<title>Boston City</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging whena phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- STYLE SHEETS -->
+<link href="css/styles.css" rel="stylesheet">
+<link href="slick/slick.css" rel="stylesheet">
+<link href="slick/slick-theme.css" rel="stylesheet">
+<link href="css/fontawesome-all.css" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;400;500;600;700;900&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://use.font-awesome.com/releasesv5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/0vrJ+37WqIM7UoBtwH06Nlg" crossorigin="anonymous">
+    
+</head>
+<body id="top">
+		
+	<div class="smallNavBar"><a class="hamOpen" href="#footerLink"></a></div>
+    
+<!-- HEADER STARTS HERE -->
+<header>
+		<h1>Boston City</h1>
+		<h2>Where History Comes Alive</h2>
+</header>
+    
+    
+    
+
+    
+    
+<!-- MAIN STARTS HERE -->
+	<main>
+
+		<div class="mySlider">
+			<picture>
+				<source srcset="images/slider01h.jpg" media="(min-width: 29.25rem)">
+				<img srcset="images/slider01s.jpg" alt="slider">
+			</picture>
+
+			<picture>
+					<source srcset="images/slider02h.jpg" media="(min-width: 29.25rem)">
+					<img srcset="images/slider02s.jpg" alt="slider">
+				</picture>
+
+				<picture>
+						<source srcset="images/slider03h.jpg" media="(min-width: 29.25rem)">
+						<img srcset="images/slider03s.jpg" alt="slider">
+					</picture>
+
+					<picture>
+							<source srcset="images/slider04h.jpg" media="(min-width: 29.25rem)">
+							<img srcset="images/slider04s.jpg" alt="slider">
+						</picture>
+
+						<picture>
+								<source srcset="images/slider05h.jpg" media="(min-width: 29.25rem)">
+								<img srcset="images/slider05s.jpg" alt="slider">
+							</picture>
+	</div><!-- end slider -------------------- -->
+
+
+
+
+<!-- Plan Your Visit -->
+
+<h1>Plan Your Visit</h1>
+
+<div class="plan">
+	<div class="planVisit">
+			<img src="images/places.jpg">
+		<div class="overlay">
+			<div class="title">
+				<a><h1><i class="fa-solid fa-circle-location-arrow"></i></h1></a>
+				<h2>PLACES TO STAY</h2> 
+			</div>
+		</div>	 
+	</div>
+
+	<div class="planVisit">
+			<img src="images/trans.png">
+		<div class="overlay">
+			<div class="title">
+				<a><h1><i class="fa-solid fa-person-walking"></i></h1></a>
+				<h2>WALK THE RED LINE</h2>
+			</div>
+		</div>	 
+	</div>
+
+	<div class="planVisit">
+			<img src="images/food.jpg">
+		<div class="overlay">
+			<div class="title">
+				<a><h1><i class="fa-solid fa-city"></i></h1></a>
+				<h2>PASS TO THE CITY</h2>
+			</div>
+		</div>	 
+	</div>
+
+	<div class="planVisit">
+			<img src="images/events.jpg">
+		<div class="overlay">
+			<div class="title">
+				<a><h1><i class="fa-solid fa-fork-knife"></i></h1></a>
+				<h2>FINE DINING</h2>
+			</div>
+		</div>	 
+	</div>
+</div>
+
+
+	
+    
+</main>
+    
+<!-- FOOTER ---------------------------------------------------------------------------------------------->   
+<footer>
+	&copy; 2022 &bull; Jordan Taylor &bull; 000-000-0000 &bull; Login
+</footer>
+<!-- FOOTER ---------------------------------------------------------------------------------------------->   
+    
+    
+    
+    
+    <!-- NAV STARTS HERE -->
+	<nav class="clearfix" id="footerLink">
+		<div><a class="hamClose" href="#top"></a></div>
+   		<ul id="primaryNav">
+			<li class="active"><a href="index.html"><span>Visit</span></a></li>
+				<li><a href="#"><span>Departments </span></a>
+				<ul>
+					<li><a href="#">Land FIll</a></li>
+					<li><a href="#">Police</a></li>
+					<li><a href="#">Parks and Rec</a></li>
+				</ul>
+			</li>
+			<li><a href="#"><span>Services </span></a>
+			</li>
+			<li><a href="index.html"><span>Pay Bills </span></a></li>
+			<li><a href="index.html"><span>Meetings</span></a></li>
+			<li><a href="index.html"><span>Help</span></a></li>
+		</ul>
+		
+	</nav>
+
+    
+    
+    
+    
+	<script src="slick/jquery-3.3.1.js"></script>
+	<script src="slick/slick.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.mySlider').slick({
+				autoplay:true,
+				dots:true,
+				arrows:false,
+				cssEase: 'ease-out',
+				speed:2000,
+				autoplaySpeed:8000
+
+			});
+		});
+	</script>
+    
+</body>
+</html>

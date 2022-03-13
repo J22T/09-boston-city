@@ -1,0 +1,61 @@
+/* ------------- BODY ------------- */
+body {
+	max-width: 64rem;
+	margin: auto;
+}
+
+
+
+
+
+/* ------------- HEADER ------------- */
+header {
+	background-image: url(../images/header1600.jpg),url(../images/headerRepeat.jpg);
+	background-repeat: no-repeat, repeat-x;
+	background-color: #9b98b0;
+}
+
+
+/* NAV  */
+nav {
+	max-width: 64rem;
+	margin: 0 auto;
+
+	ul li a span {
+		display: inline;
+	}
+
+	ul {
+		font-weight: $boldWeight;
+
+		li {
+			font-weight: $boldWeight;
+		}
+	}
+
+	ul li.active a {
+		background-color: lighten($primaryColor, 30%);
+	}
+	
+	ul li a:hover {
+		background-color: lighten($primaryColor, 30%);
+	}
+}
+
+
+
+
+
+
+/* ----------------PLAN YOUR VISIT----------------- */
+div.plan {
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	margin: 0;
+
+	h2 {
+		font-size: 16px;
+	}
+	
+	
+	
+	}//END.PLAN
