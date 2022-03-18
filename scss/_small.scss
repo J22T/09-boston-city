@@ -17,11 +17,12 @@ header {
 	margin: auto;
 	position: relative;
 	height: 110px; 
-	background-color: $primaryColor;
 	background-image: url(../images/header0560.jpg);
+	
 
 	img {
-		padding: 1rem 0 .5rem 2%; display: block;
+		padding: 1rem 0 .5rem 2%;
+		display: block;
 		}
 
 	h1, h2 {
