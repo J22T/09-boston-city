@@ -352,6 +352,7 @@ footer {
 
   nav {
     height: auto;
+    max-width: 64rem;
   }
   nav ul {
     margin-left: 2%;
