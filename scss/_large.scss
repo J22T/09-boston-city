@@ -34,11 +34,11 @@ nav {
 	}
 
 	ul li.active a {
-		background-color: lighten($primaryColor, 30%);
+		background-color: lighten($secondaryColor, 10%);
 	}
 	
 	ul li a:hover {
-		background-color: lighten($primaryColor, 30%);
+		background-color: lighten($secondaryColor, 10%);
 	}
 }
 
