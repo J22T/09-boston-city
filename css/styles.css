@@ -149,6 +149,9 @@ header h2 {
 }
 
 /* NAV  */
+nav {
+  background-color: #333;
+}
 nav ul li.active a {
   background-color: #fc7c74;
 }
@@ -353,7 +356,7 @@ footer {
   }
 
   #primaryNAV li.active a {
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: #fc7c74;
   }
 
   #primaryNAV li a {
@@ -361,14 +364,13 @@ footer {
     width: 100%;
     padding: .75rem 2vw;
     font-size: 14px;
-    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.15);
     color: white;
     text-decoration: none;
     border-top: 1px solid rgba(0, 0, 0, 0.2);
   }
 
   #primaryNAV li a:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #fc7c74;
   }
 
   /* Toggle the navigation bar to expand down  */
@@ -389,7 +391,7 @@ footer {
   }
 
   #primaryNAV li.parent > a:hover {
-    background: rgba(0, 0, 0, 0.75);
+    background-color: #fc7c74;
   }
 
   /*hide the sub menu items by default*/
@@ -426,7 +428,7 @@ footer {
 
   /* NAV  */
   nav {
-    background-color: #F1ECE9;
+    background-color: #333;
   }
   nav ul {
     margin-left: 2%;
@@ -442,7 +444,7 @@ footer {
     background: none;
     font-size: .9em;
     padding: .9em .9em;
-    color: #333;
+    color: white;
     text-decoration: none;
     /*transition*/
     -webkit-transition: background 0.3s linear;
@@ -455,7 +457,7 @@ footer {
     /*rules for the sub menu items*/
     z-index: 998;
     position: absolute;
-    background-color: #fc7c74;
+    background-color: #fa1e10;
     left: -999em;
     /* pushes the menu way off to the side */
     width: 10em;
@@ -606,6 +608,6 @@ footer {
     margin-left: 0;
   }
   nav li.current-menu-item a {
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: #fc7c74;
   }
 }
