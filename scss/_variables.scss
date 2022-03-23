@@ -20,3 +20,17 @@ background: -webkit-linear-gradient(top, $startColor 0%,$endColor 100%); /* Chro
 background: linear-gradient(to bottom, $startColor 0%,$endColor 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$startColor', endColorstr='$endColor',GradientType=0 ); /* IE6-9 */
 }
+
+$primaryColor: gray;
+$secondaryColor:#A9A9A9; 
+$thirdColor:#696969;
+$menuColor: #56F;
+$accent: #ED600E;
+$menuTextColor: rgba(255,255,255,0.9);
+
+$gutter: 2%;
+
+
+$fontFamily: 'Kanit', sans-serif;
+$regularWeight: 300;
+$heavyWeight: 700;

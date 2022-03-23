@@ -27,13 +27,46 @@
 <header>
 		<h1>Boston City</h1>
 		<h2>Where History Comes Alive</h2>
+
+		<button id="hamBTN">
+			<span>&equiv;</span>
+			<span>&otimes;</span>
+		</button>
+
 </header>
-    
-    <nav>
-		<div class="smallNavBar"><a class="hamOpen" href="#footerLink"></a></div>
-	</nav>
      
 
+	    <!-- NAV STARTS HERE -->
+		<nav class="clearfix">
+
+
+			<ul id="primaryNAV">
+			 <li><a href="index.html">Home</a></li>
+			 <li class="parent"><a href="index.html">Products</a>
+				 <ul>
+					 <li><a href="#">Shirts</a></li>
+					 <li><a href="#">Hoodies</a></li>
+					 <li><a href="#">Masks</a></li>
+					 <li><a href="#">Hats</a></li>
+				 </ul>
+			 </li>
+			 <li class="parent"><a href="index.html">Deals</a>
+				 <ul>
+					 <li><a href="#">50% off</a></li>
+					 <li><a href="#">30% all itmes</a></li>
+					 <li><a href="#">March Madness Deals</a></li>
+				 </ul>
+			 </li>
+			 <li class="parent active"><a href="index.html"> Order</a>
+			 <ul>
+				 <li><a href="#">Water Bottles</a></li>
+				 <li><a href="#">Hats</a></li>
+				 <li><a href="#">Shirts</a></li>
+				 </ul>
+			 </li>
+			 <li><a href="index.html">Customer Reviews</a></li>
+		 </ul>	
+	 </nav>
     
     
 <!-- MAIN STARTS HERE -->
@@ -129,31 +162,12 @@
     
     
     
-    <!-- NAV STARTS HERE -->
-	<nav class="clearfix" id="footerLink">
-		<div><a class="hamClose" href="#top"></a></div>
-   		<ul id="primaryNav">
-			<li class="active"><a href="index.html"><span>Visit</span></a></li>
-				<li><a href="#"><span>Departments &#9662; </span></a>
-				<ul>
-					<li><a href="#">Land FIll</a></li>
-					<li><a href="#">Police</a></li>
-					<li><a href="#">Parks and Rec</a></li>
-				</ul>
-			</li>
-			<li><a href="#"><span>Services </span></a>
-			</li>
-			<li><a href="index.html"><span>Pay Bills </span></a></li>
-			<li><a href="index.html"><span>Meetings</span></a></li>
-			<li><a href="index.html"><span>Help</span></a></li>
-		</ul>
-		
-	</nav>
+
 
     
     
     
-    
+	<script src="js/menuToggle.js"></script>
 	<script src="slick/jquery-3.3.1.js"></script>
 	<script src="slick/slick.min.js"></script>
 	<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
