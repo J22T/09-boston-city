@@ -150,6 +150,7 @@ header h2 {
 header #hamBTN {
   position: absolute;
   bottom: 1rem;
+  display: block;
 }
 
 /* NAV  */
@@ -429,6 +430,9 @@ footer {
   header h1 {
     padding-top: 25px;
   }
+  header #hamBTN {
+    display: none;
+  }
 
   /* NAV  */
   nav {
@@ -518,6 +522,9 @@ footer {
     background-image: url(../images/header1600.jpg), url(../images/headerRepeat.jpg);
     background-repeat: no-repeat, repeat-x;
     background-color: #9b98b0;
+  }
+  header #hamBTN {
+    display: none;
   }
 
   /* NAV  */

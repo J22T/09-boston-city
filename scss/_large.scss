@@ -13,6 +13,10 @@ header {
 	background-image: url(../images/header1600.jpg),url(../images/headerRepeat.jpg);
 	background-repeat: no-repeat, repeat-x;
 	background-color: #9b98b0;
+
+	#hamBTN {
+		display: none;
+	}
 }
 
 
@@ -137,6 +141,8 @@ div.plan {
 		li.current-menu-item a {
 			background-color: lighten($secondaryColor, 10%);
 		}
+
+
 	
 	
 		
