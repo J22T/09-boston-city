@@ -113,7 +113,7 @@ nav {
 	ul li ul { /*rules for the sub menu items*/
 		z-index:998;
 		position: absolute;
-		background-color: lighten($menuColor, 10%);
+		background-color: lighten($secondaryColor, 10%);
 		left: -999em; /* pushes the menu way off to the side */
 		width: 10em;
 	}

@@ -49,7 +49,7 @@
         height: 0;
         overflow: hidden;
 		width: auto;
-		background-color: $menuColor; /* change the menu color */
+		background-color: lighten($secondaryColor, 10%);
 		margin: 0;
 		padding: 0;
 		z-index: 998;
@@ -84,7 +84,7 @@
 
 	/* Submenus – optional .parent class indicates dropdowns */
 	#primaryNav > li:hover > a {
-		background-color: $menuColor;
+		background-color: lighten($secondaryColor, 10%);
 	}
 
 	#primaryNAV li.parent > a:after {
