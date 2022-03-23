@@ -108,7 +108,7 @@ header {
 nav {
 
 	ul li.active a {
-		background-color: $secondaryColor
+		background-color: lighten($secondaryColor, 10%);
 	}
 	
 	}

@@ -1,6 +1,9 @@
-$primaryColor: #333A42; 
-$secondaryColor:silver; 
+$primaryColor: #091F2F; 
+$secondaryColor: #FB4D42; 
 $thirdColor:#F1ECE9;
+$fourthColor:#288BE4;
+$menuColor: #56F;
+$menuTextColor: rgba(255,255,255,0.9);
 
 $accent: #D7443F;
 
@@ -21,12 +24,7 @@ background: linear-gradient(to bottom, $startColor 0%,$endColor 100%); /* W3C, I
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$startColor', endColorstr='$endColor',GradientType=0 ); /* IE6-9 */
 }
 
-$primaryColor: gray;
-$secondaryColor:#A9A9A9; 
-$thirdColor:#696969;
-$menuColor: #56F;
-$accent: #ED600E;
-$menuTextColor: rgba(255,255,255,0.9);
+
 
 $gutter: 2%;
 
