@@ -394,7 +394,7 @@ footer {
     float: right;
   }
 
-  #primaryNAV li.parent > a:hover {
+  #primaryNAV li > a:hover {
     background-color: #fc7c74;
   }
 
@@ -586,7 +586,7 @@ footer {
   nav ul li a:hover {
     background: #262626;
   }
-  nav #primaryNAV li.parent > a::before {
+  nav #primaryNAV li > a::before {
     font-size: .75rem;
     content: "\25BC";
     color: rgba(255, 255, 255, 0.5);

@@ -94,7 +94,7 @@
 		float: right;
 	}
 
-	#primaryNAV li.parent > a:hover {
+	#primaryNAV li > a:hover {
 		background-color: lighten($secondaryColor, 10%);
 	}
 
