@@ -501,6 +501,14 @@ footer {
   div.planVisit h2 {
     white-space: normal;
   }
+
+  div.mySlider div {
+    width: 100%;
+    margin-top: 0rem;
+  }
+  div.mySlider div img {
+    width: 100%;
+  }
 }
 @media only screen and (min-width: 64em) {
   /* ------------- BODY ------------- */
@@ -612,5 +620,13 @@ footer {
   }
   nav li.current-menu-item a {
     background-color: #fc7c74;
+  }
+
+  div.mySlider div {
+    width: 100%;
+    margin-top: 0rem;
+  }
+  div.mySlider div img {
+    width: 100%;
   }
 }
