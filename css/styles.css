@@ -148,7 +148,6 @@ header h2 {
   font-weight: 700;
 }
 header #hamBTN {
-  position: absolute;
   top: 3rem;
 }
 
@@ -414,7 +413,6 @@ footer {
 @media only screen and (min-width: 35em) {
   /* ------------- HEADER ------------- */
   header {
-    margin-top: 2.14rem;
     height: 130px;
     background-image: url(../images/header1600.jpg), url(../images/headerRepeat.jpg);
     background-repeat: no-repeat, repeat-x;
