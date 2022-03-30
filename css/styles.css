@@ -157,6 +157,9 @@ nav {
 nav ul li.active a {
   background-color: #fc7c74;
 }
+nav #hamBTN {
+  color: white;
+}
 
 /* MAIN  */
 main {
