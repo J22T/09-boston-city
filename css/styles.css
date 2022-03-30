@@ -185,10 +185,10 @@ main figure.w100 {
 }
 
 /* ---------------SLICK SLIDER------------ */
-div.mySlider div {
+div.mySlider {
   width: 100%;
 }
-div.mySlider div img {
+div.mySlider img {
   width: 100%;
 }
 
