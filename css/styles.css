@@ -159,6 +159,9 @@ nav ul li.active a {
 nav #hamBTN {
   color: white;
 }
+nav #hamBTN span {
+  margin-right: 5rem;
+}
 
 /* MAIN  */
 main {
